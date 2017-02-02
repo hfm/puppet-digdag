@@ -8,3 +8,7 @@ gem 'puppet-lint', '>= 2.0.0'
 gem 'facter', '>= 2.0'
 gem 'rspec-puppet'
 gem 'rubocop'
+
+group :development do
+  gem 'puppet-blacksmith'
+end
